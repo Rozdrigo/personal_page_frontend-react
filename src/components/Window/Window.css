@@ -1,0 +1,86 @@
+.FGFG{
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid gainsboro;
+    padding-top: 5px;
+    border-radius: 5px;
+    height: min-content;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.Func{
+    color: rgb(0, 90, 90);
+}
+.NM_FL{
+    font-size: x-small;
+    position: relative;
+    top: 2px;
+    padding: 5px 10px 5px 10px;
+    background-color: whitesmoke;
+    border-top: 1px solid gainsboro ;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.BW_GG{
+    display: flex;
+    font-size: small;
+    background-color: whitesmoke;
+    border-top: 1px solid gainsboro;
+}
+.TB_II{
+    display: flex;
+    align-items: center;
+}
+.MEC_BT{
+    position: relative;
+    display: flex;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: hsl(51, 100%, 73%);
+    margin: 0 25px 0 25px;
+}
+.TX_BX{
+    padding: 10px;
+}
+.MEC_BT::after{
+    display: block;
+    position: absolute;
+    left: 17px;
+    content: ' ';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 92, 71);
+}
+.CT_LI{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    color: gray;
+}
+.MEC_BT::before{
+    display: block;
+    position: absolute;
+    left: -17px;
+    content: ' ';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(148, 255, 86);
+}
+@media only screen and (max-width: 770px) {
+    .TX_BX{
+        font-size: xx-small;
+    }
+    .CT_LI{
+        font-size: xx-small;
+    }
+}

@@ -1,0 +1,19 @@
+.pb_li{
+    max-width: 1000px;
+    width: 100%;
+    padding: 2.5px;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    flex-flow: row wrap;
+}
+@media only screen and (max-width: 1000px) {
+    .pb_li{
+        width: fit-content;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .pb_li{
+        margin-top: 15px;
+    }
+  }

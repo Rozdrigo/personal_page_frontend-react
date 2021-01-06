@@ -1,0 +1,52 @@
+@keyframes smoothmoving{
+    0%{
+        background-position: 50% -5%;
+    }
+    50%{
+        background-position: 50% 105%;
+    }
+    100%{
+        background-position: 50% -5%;
+    }
+}
+#pt_03 p {
+    font-size: x-small;
+    margin: 10px;
+}
+#pt_03{
+    display: flex;
+    margin-top: 5px;
+}
+#sd_00{
+    width: 200px;
+}
+.ce_nb{
+    height: 200px;
+    width: 100%;
+    background: url(../assets/Templates/Template_sbr.png) teal;
+    background-size: 30%;
+    animation: infinite 20s smoothmoving;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 650px) {
+    .ce_nb{
+        width: 100vw;
+        height: 130px;
+    }
+    #pt_03{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: min-content;
+    }
+    #sd_00{
+        width: 100%;
+        display: flex;
+    }
+    .bf_lb{
+        max-width: 180px;
+    }
+    .bd_lf{
+        max-width: 180px;
+        border-left: 1px dashed rgba(0, 0, 0, 0.5);
+    }
+}

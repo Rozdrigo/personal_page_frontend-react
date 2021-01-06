@@ -1,0 +1,18 @@
+.pp_ft{
+    box-shadow: 0 -15px 0 #f0f0f0;
+    border-top: 1px dashed gainsboro;
+    background-color: #f0f0f0;
+    font-size: x-small;
+    color: #808080;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    margin-top: 30px;
+    width: 100%;
+}
+.pp_ft a{
+    color: black;
+    font-size: small;
+}
