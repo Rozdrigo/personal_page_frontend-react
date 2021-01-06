@@ -1,6 +1,6 @@
 # personal_page_frontend-react
-Pagina pessoal feita em react, estava precisando montar um curriculo, daí então resolvi usar das minhas habilidades e montar algo palpável
-agora além de um curriculo tenho uma personal-page para mostrar em uma futura entrevista de emprego.
+Página pessoal feita em react, estava precisando montar um currículo, daí então resolvi usar das minhas habilidades e montar algo palpável
+agora além de um currículo tenho uma personal-page para mostrar em uma futura entrevista de emprego.
 
 O resto é para quem está cansado, o sonho é para os mortos.
 -O Doutor
