@@ -13,7 +13,7 @@ function Home() {
     const [value, onChangeText] = React.useState('');
     function sendMessage(){
         var xmessage = value.replace(/ /g, "%20").replace(/"?"/g, "%3F")
-        return `https://api.whatsapp.com/send?phone=5588981085949&text=${xmessage}`
+        return `https://api.whatsapp.com/send?phone=558893350729&text=${xmessage}`
     }
     return (
         <div className="hm_pg">

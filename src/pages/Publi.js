@@ -9,7 +9,7 @@ import './Publi.css'
 function Publi() {
     const [ renderPosts, setRenderPosts ] = useState({})
     useEffect (() => { 
-        getPosts(1)
+        getPosts()
       }, [])
     async function getPosts() {
         const response = await axios.get('https://serene-waters-74538.herokuapp.com?user_id=1')
